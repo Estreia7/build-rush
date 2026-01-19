@@ -7,7 +7,6 @@ datasource db {
   provider = "postgresql"
 }
 
-// Example User model for testing
 model User {
   id        String   @id @default(cuid())
   name      String
